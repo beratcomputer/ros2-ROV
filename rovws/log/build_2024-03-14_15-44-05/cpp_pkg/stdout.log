@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target cppnode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cppnode.dir/src/cppnode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cppnode[0m
+[100%] Built target cppnode
+-- Install configuration: ""
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/cppnode
+-- Set runtime path of "/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/cppnode" to ""
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.dsv
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+-- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.xml

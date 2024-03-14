@@ -1,0 +1,37 @@
+[7.807s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/py_pkg': PYTHONPATH=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed
+[8.107s] running egg_info
+[8.107s] creating ../../build/py_pkg/py_pkg.egg-info
+[8.107s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[8.108s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[8.108s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[8.108s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[8.108s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[8.108s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[8.110s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[8.111s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[8.111s] running build
+[8.111s] running build_py
+[8.111s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build
+[8.112s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib
+[8.112s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg
+[8.112s] copying py_pkg/pynode.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg
+[8.112s] copying py_pkg/__init__.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg
+[8.112s] running install
+[8.112s] running install_lib
+[8.113s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[8.113s] copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg/pynode.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[8.113s] copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[8.114s] byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg/pynode.py to pynode.cpython-310.pyc
+[8.114s] byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc
+[8.114s] running install_data
+[8.115s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index
+[8.115s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index/resource_index
+[8.115s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index/resource_index/packages
+[8.115s] copying resource/py_pkg -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index/resource_index/packages
+[8.115s] copying package.xml -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/py_pkg
+[8.115s] running install_egg_info
+[8.117s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[8.118s] running install_scripts
+[8.138s] Installing pynode script to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/py_pkg
+[8.138s] writing list of installed files to '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log'
+[8.163s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/py_pkg' returned '0': PYTHONPATH=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.000280] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.000799] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.099822] (-) TimerEvent: {}
+[0.132127] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.200034] (-) TimerEvent: {}
+[0.258371] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.258544] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg'], 'cwd': '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saykabot'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saykabot/ros2ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saykabot'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d1295242765d60967bd134b465f2dad1'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PICO_TOOLCHAIN_PATH', '...'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install:/home/saykabot/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saykabot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saykabot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/saykabot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vonFoscheptik:@/tmp/.ICE-unix/3399,unix/vonFoscheptik:/tmp/.ICE-unix/3399'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4140eda_bbda_42b4_bba9_124aa9e7b691'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FIDVK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.488'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/selfcpppkg:/home/saykabot/ros2ws/install/my_robot_bringup:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/ros2ws/install/my_cpp_pkg:/home/saykabot/ros2ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('PICO_SDK_PATH', '/home/saykabot/pico-sdk'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d1295242765d60967bd134b465f2dad1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/saykabot/ros2ws/install/selfpypkg/lib/python3.10/site-packages:/home/saykabot/ros2ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saykabot/ros2ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saykabot/ros2ws/install/selfcpppkg:/home/saykabot/ros2ws/install/my_robot_bringup:/home/saykabot/ros2ws/install/my_cpp_pkg:/home/saykabot/ros2ws/install/my_robot_interfaces:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.300150] (-) TimerEvent: {}
+[0.400434] (-) TimerEvent: {}
+[0.500714] (-) TimerEvent: {}
+[0.600980] (-) TimerEvent: {}
+[0.701324] (-) TimerEvent: {}
+[0.801651] (-) TimerEvent: {}
+[0.901985] (-) TimerEvent: {}
+[1.002360] (-) TimerEvent: {}
+[1.103682] (-) TimerEvent: {}
+[1.204249] (-) TimerEvent: {}
+[1.304737] (-) TimerEvent: {}
+[1.405238] (-) TimerEvent: {}
+[1.505671] (-) TimerEvent: {}
+[1.605997] (-) TimerEvent: {}
+[1.761384] (-) TimerEvent: {}
+[1.861915] (-) TimerEvent: {}
+[1.962594] (-) TimerEvent: {}
+[2.063274] (-) TimerEvent: {}
+[2.163824] (-) TimerEvent: {}
+[2.264181] (-) TimerEvent: {}
+[2.364550] (-) TimerEvent: {}
+[2.465079] (-) TimerEvent: {}
+[2.565828] (-) TimerEvent: {}
+[2.666305] (-) TimerEvent: {}
+[2.766619] (-) TimerEvent: {}
+[2.867270] (-) TimerEvent: {}
+[2.992961] (-) TimerEvent: {}
+[3.093426] (-) TimerEvent: {}
+[3.193898] (-) TimerEvent: {}
+[3.294514] (-) TimerEvent: {}
+[3.395162] (-) TimerEvent: {}
+[3.407553] (cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.495274] (-) TimerEvent: {}
+[3.595622] (-) TimerEvent: {}
+[3.696001] (-) TimerEvent: {}
+[3.796394] (-) TimerEvent: {}
+[3.896912] (-) TimerEvent: {}
+[3.997427] (-) TimerEvent: {}
+[4.097928] (-) TimerEvent: {}
+[4.198555] (-) TimerEvent: {}
+[4.299255] (-) TimerEvent: {}
+[4.399804] (-) TimerEvent: {}
+[4.500368] (-) TimerEvent: {}
+[4.600706] (-) TimerEvent: {}
+[4.701048] (-) TimerEvent: {}
+[4.801656] (-) TimerEvent: {}
+[4.902263] (-) TimerEvent: {}
+[5.002903] (-) TimerEvent: {}
+[5.103550] (-) TimerEvent: {}
+[5.204110] (-) TimerEvent: {}
+[5.304672] (-) TimerEvent: {}
+[5.405440] (-) TimerEvent: {}
+[5.506085] (-) TimerEvent: {}
+[5.606440] (-) TimerEvent: {}
+[5.706771] (-) TimerEvent: {}
+[5.807268] (-) TimerEvent: {}
+[5.907571] (-) TimerEvent: {}
+[6.007884] (-) TimerEvent: {}
+[6.108164] (-) TimerEvent: {}
+[6.208651] (-) TimerEvent: {}
+[6.309141] (-) TimerEvent: {}
+[6.409479] (-) TimerEvent: {}
+[6.420002] (cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.509741] (-) TimerEvent: {}
+[6.586253] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.610174] (-) TimerEvent: {}
+[6.710546] (-) TimerEvent: {}
+[6.810959] (-) TimerEvent: {}
+[6.911266] (-) TimerEvent: {}
+[6.915864] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.931717] (cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.955842] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.970871] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.011354] (-) TimerEvent: {}
+[7.032030] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.111530] (-) TimerEvent: {}
+[7.212113] (-) TimerEvent: {}
+[7.275140] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.287003] (cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.287394] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.287961] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.312386] (-) TimerEvent: {}
+[7.367482] (cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.412781] (-) TimerEvent: {}
+[7.513154] (-) TimerEvent: {}
+[7.613455] (-) TimerEvent: {}
+[7.713700] (-) TimerEvent: {}
+[7.747115] (cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.813983] (-) TimerEvent: {}
+[7.914454] (-) TimerEvent: {}
+[7.937236] (py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pkg', 'build', '--build-base', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build', 'install', '--record', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'saykabot', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saykabot/ros2ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/saykabot', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1295242765d60967bd134b465f2dad1', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'PICO_TOOLCHAIN_PATH': '...', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install:/home/saykabot/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'saykabot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saykabot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/saykabot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vonFoscheptik:@/tmp/.ICE-unix/3399,unix/vonFoscheptik:/tmp/.ICE-unix/3399', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4140eda_bbda_42b4_bba9_124aa9e7b691', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FIDVK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.488', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/selfcpppkg:/home/saykabot/ros2ws/install/my_robot_bringup:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/ros2ws/install/my_cpp_pkg:/home/saykabot/ros2ws/install/my_robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'PICO_SDK_PATH': '/home/saykabot/pico-sdk', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1295242765d60967bd134b465f2dad1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:/home/saykabot/ros2ws/install/selfpypkg/lib/python3.10/site-packages:/home/saykabot/ros2ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saykabot/ros2ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/saykabot/ros2ws/install/selfcpppkg:/home/saykabot/ros2ws/install/my_robot_bringup:/home/saykabot/ros2ws/install/my_cpp_pkg:/home/saykabot/ros2ws/install/my_robot_interfaces'}, 'shell': False}
+[8.014533] (-) TimerEvent: {}
+[8.114926] (-) TimerEvent: {}
+[8.188420] (cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.215039] (-) TimerEvent: {}
+[8.238553] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.239146] (py_pkg) StdoutLine: {'line': b'creating ../../build/py_pkg/py_pkg.egg-info\n'}
+[8.239374] (py_pkg) StdoutLine: {'line': b'writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[8.239636] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[8.239869] (py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[8.240181] (py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[8.240331] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[8.240457] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[8.242167] (py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[8.242894] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[8.243156] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[8.243238] (py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.243533] (py_pkg) StdoutLine: {'line': b'creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build\n'}
+[8.243723] (py_pkg) StdoutLine: {'line': b'creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib\n'}
+[8.243881] (py_pkg) StdoutLine: {'line': b'creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg\n'}
+[8.244028] (py_pkg) StdoutLine: {'line': b'copying py_pkg/pynode.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg\n'}
+[8.244134] (py_pkg) StdoutLine: {'line': b'copying py_pkg/__init__.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg\n'}
+[8.244284] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[8.244352] (py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.244873] (py_pkg) StdoutLine: {'line': b'creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[8.245010] (py_pkg) StdoutLine: {'line': b'copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg/pynode.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[8.245150] (py_pkg) StdoutLine: {'line': b'copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[8.245730] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg/pynode.py to pynode.cpython-310.pyc\n'}
+[8.246119] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[8.246327] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.246848] (py_pkg) StdoutLine: {'line': b'creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index\n'}
+[8.246992] (py_pkg) StdoutLine: {'line': b'creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index/resource_index\n'}
+[8.247107] (py_pkg) StdoutLine: {'line': b'creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[8.247283] (py_pkg) StdoutLine: {'line': b'copying resource/py_pkg -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[8.247394] (py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/share/py_pkg\n'}
+[8.247502] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.248816] (py_pkg) StdoutLine: {'line': b'Copying ../../build/py_pkg/py_pkg.egg-info to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info\n'}
+[8.249752] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.269749] (py_pkg) StdoutLine: {'line': b'Installing pynode script to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/py_pkg\n'}
+[8.270183] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log'\n"}
+[8.295015] (py_pkg) CommandEnded: {'returncode': 0}
+[8.315155] (-) TimerEvent: {}
+[8.415556] (-) TimerEvent: {}
+[8.515839] (-) TimerEvent: {}
+[8.529281] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[8.616112] (-) TimerEvent: {}
+[8.628437] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.652515] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.716221] (-) TimerEvent: {}
+[8.722778] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.816396] (-) TimerEvent: {}
+[8.818164] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.875165] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.916485] (-) TimerEvent: {}
+[9.016865] (-) TimerEvent: {}
+[9.117210] (-) TimerEvent: {}
+[9.184083] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.209358] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.217485] (-) TimerEvent: {}
+[9.317966] (-) TimerEvent: {}
+[9.418280] (-) TimerEvent: {}
+[9.518604] (-) TimerEvent: {}
+[9.568108] (cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.618710] (-) TimerEvent: {}
+[9.648205] (cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.718849] (cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.719163] (-) TimerEvent: {}
+[9.819685] (-) TimerEvent: {}
+[9.838716] (cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.920045] (-) TimerEvent: {}
+[10.020356] (-) TimerEvent: {}
+[10.082127] (cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.082720] (cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.120743] (-) TimerEvent: {}
+[10.194032] (cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.195344] (cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.221165] (-) TimerEvent: {}
+[10.321498] (-) TimerEvent: {}
+[10.421796] (-) TimerEvent: {}
+[10.522058] (-) TimerEvent: {}
+[10.622475] (-) TimerEvent: {}
+[10.630410] (cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.633197] (cpp_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:12 (add_executable):\n'}
+[10.633352] (cpp_pkg) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[10.633425] (cpp_pkg) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[10.633490] (cpp_pkg) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[10.633552] (cpp_pkg) StderrLine: {'line': b'\n'}
+[10.633613] (cpp_pkg) StderrLine: {'line': b'  File:\n'}
+[10.633673] (cpp_pkg) StderrLine: {'line': b'\n'}
+[10.633733] (cpp_pkg) StderrLine: {'line': b'    /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp\n'}
+[10.633794] (cpp_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.633856] (cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[10.639406] (cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[10.641227] (cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg\n'}
+[10.650532] (cpp_pkg) CommandEnded: {'returncode': 0}
+[10.652851] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[10.652930] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saykabot'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saykabot/ros2ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saykabot'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d1295242765d60967bd134b465f2dad1'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PICO_TOOLCHAIN_PATH', '...'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install:/home/saykabot/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saykabot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saykabot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/saykabot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vonFoscheptik:@/tmp/.ICE-unix/3399,unix/vonFoscheptik:/tmp/.ICE-unix/3399'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4140eda_bbda_42b4_bba9_124aa9e7b691'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FIDVK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.488'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/selfcpppkg:/home/saykabot/ros2ws/install/my_robot_bringup:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/ros2ws/install/my_cpp_pkg:/home/saykabot/ros2ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('PICO_SDK_PATH', '/home/saykabot/pico-sdk'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d1295242765d60967bd134b465f2dad1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/saykabot/ros2ws/install/selfpypkg/lib/python3.10/site-packages:/home/saykabot/ros2ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saykabot/ros2ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saykabot/ros2ws/install/selfcpppkg:/home/saykabot/ros2ws/install/my_robot_bringup:/home/saykabot/ros2ws/install/my_cpp_pkg:/home/saykabot/ros2ws/install/my_robot_interfaces:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[10.701344] (cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cppnode.dir/src/cppnode.cpp.o\x1b[0m\n'}
+[10.722570] (-) TimerEvent: {}
+[10.823066] (-) TimerEvent: {}
+[10.923468] (-) TimerEvent: {}
+[11.023812] (-) TimerEvent: {}
+[11.124233] (-) TimerEvent: {}
+[11.224731] (-) TimerEvent: {}
+[11.325108] (-) TimerEvent: {}
+[11.425712] (-) TimerEvent: {}
+[11.526328] (-) TimerEvent: {}
+[11.626646] (-) TimerEvent: {}
+[11.726972] (-) TimerEvent: {}
+[11.827426] (-) TimerEvent: {}
+[11.927865] (-) TimerEvent: {}
+[12.028192] (-) TimerEvent: {}
+[12.128722] (-) TimerEvent: {}
+[12.229331] (-) TimerEvent: {}
+[12.329933] (-) TimerEvent: {}
+[12.430440] (-) TimerEvent: {}
+[12.531137] (-) TimerEvent: {}
+[12.631667] (-) TimerEvent: {}
+[12.732216] (-) TimerEvent: {}
+[12.832807] (-) TimerEvent: {}
+[12.933424] (-) TimerEvent: {}
+[13.033811] (-) TimerEvent: {}
+[13.134535] (-) TimerEvent: {}
+[13.235245] (-) TimerEvent: {}
+[13.335585] (-) TimerEvent: {}
+[13.436232] (-) TimerEvent: {}
+[13.536908] (-) TimerEvent: {}
+[13.637230] (-) TimerEvent: {}
+[13.737850] (-) TimerEvent: {}
+[13.838501] (-) TimerEvent: {}
+[13.939179] (-) TimerEvent: {}
+[14.039629] (-) TimerEvent: {}
+[14.139922] (-) TimerEvent: {}
+[14.240403] (-) TimerEvent: {}
+[14.340965] (-) TimerEvent: {}
+[14.441594] (-) TimerEvent: {}
+[14.541993] (-) TimerEvent: {}
+[14.642626] (-) TimerEvent: {}
+[14.743296] (-) TimerEvent: {}
+[14.843808] (-) TimerEvent: {}
+[14.944220] (-) TimerEvent: {}
+[15.044664] (-) TimerEvent: {}
+[15.145111] (-) TimerEvent: {}
+[15.245442] (-) TimerEvent: {}
+[15.345775] (-) TimerEvent: {}
+[15.446361] (-) TimerEvent: {}
+[15.546659] (-) TimerEvent: {}
+[15.646947] (-) TimerEvent: {}
+[15.747323] (-) TimerEvent: {}
+[15.847667] (-) TimerEvent: {}
+[15.948021] (-) TimerEvent: {}
+[16.048319] (-) TimerEvent: {}
+[16.148605] (-) TimerEvent: {}
+[16.248892] (-) TimerEvent: {}
+[16.349228] (-) TimerEvent: {}
+[16.449583] (-) TimerEvent: {}
+[16.549930] (-) TimerEvent: {}
+[16.650256] (-) TimerEvent: {}
+[16.750593] (-) TimerEvent: {}
+[16.850924] (-) TimerEvent: {}
+[16.951259] (-) TimerEvent: {}
+[17.051592] (-) TimerEvent: {}
+[17.151956] (-) TimerEvent: {}
+[17.252293] (-) TimerEvent: {}
+[17.352628] (-) TimerEvent: {}
+[17.421564] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:6:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KMyCustomNode\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.421840] (cpp_pkg) StderrLine: {'line': b'    6 |     \x1b[01;31m\x1b[KMyCustomNode\x1b[m\x1b[K() : Node("cppnode") // Node name modifying\n'}
+[17.421947] (cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.422140] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CppNode::MyCustomNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.422311] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:6:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[17.422488] (cpp_pkg) StderrLine: {'line': b'    6 |     MyCustomNode() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("cppnode") // Node name modifying\n'}
+[17.422557] (cpp_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.422621] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:8:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.422689] (cpp_pkg) StderrLine: {'line': b'    8 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[17.422751] (cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.452958] (-) TimerEvent: {}
+[17.553391] (-) TimerEvent: {}
+[17.653803] (-) TimerEvent: {}
+[17.754181] (-) TimerEvent: {}
+[17.831459] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[17.831686] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[17.831761] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[17.831823] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[17.831883] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:1\x1b[m\x1b[K:\n'}
+[17.831958] (cpp_pkg) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = CppNode; _Args = {}; _Tp = CppNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.832021] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = CppNode; _Args = {}; _Tp = CppNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<CppNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832086] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = CppNode; _Alloc = std::allocator<CppNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832148] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = CppNode; _Alloc = std::allocator<CppNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832209] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<CppNode>; _Args = {}; _Tp = CppNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832279] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<CppNode>; _Args = {}; _Tp = CppNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832340] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = CppNode; _Alloc = std::allocator<CppNode>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832407] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = CppNode; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832467] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:16:42:\x1b[m\x1b[K   required from here\n'}
+[17.832532] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KCppNode::CppNode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832593] (cpp_pkg) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[17.832652] (cpp_pkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.832711] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCppNode::CppNode()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[17.832771] (cpp_pkg) StderrLine: {'line': b'    3 | class \x1b[01;36m\x1b[KCppNode\x1b[m\x1b[K : public rclcpp::Node // Class Decleration\n'}
+[17.832830] (cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.832888] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:3:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.832948] (cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[17.833007] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[17.833065] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[17.833127] (cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp:1\x1b[m\x1b[K:\n'}
+[17.833185] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.833245] (cpp_pkg) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[17.833302] (cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.854586] (-) TimerEvent: {}
+[17.862409] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[17.862695] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.862883] (cpp_pkg) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[17.863009] (cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.863083] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[17.863147] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.863211] (cpp_pkg) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[17.863272] (cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.863332] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[17.954720] (-) TimerEvent: {}
+[17.960176] (cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cppnode.dir/build.make:76: CMakeFiles/cppnode.dir/src/cppnode.cpp.o] Error 1\n'}
+[17.960543] (cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppnode.dir/all] Error 2\n'}
+[17.960881] (cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.963165] (cpp_pkg) CommandEnded: {'returncode': 2}
+[18.052301] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 2}
+[18.055005] (-) TimerEvent: {}
+[18.063477] (-) EventReactorShutdown: {}
