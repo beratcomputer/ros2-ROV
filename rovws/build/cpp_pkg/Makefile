@@ -210,6 +210,32 @@ cppnode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppnode.dir/build.make CMakeFiles/cppnode.dir/build
 .PHONY : cppnode/fast
 
+#=============================================================================
+# Target rules for targets named number_publisher
+
+# Build rule for target.
+number_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_publisher
+.PHONY : number_publisher
+
+# fast build rule for target.
+number_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/build
+.PHONY : number_publisher/fast
+
+#=============================================================================
+# Target rules for targets named number_counter
+
+# Build rule for target.
+number_counter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_counter
+.PHONY : number_counter
+
+# fast build rule for target.
+number_counter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
+.PHONY : number_counter/fast
+
 src/cppnode.o: src/cppnode.cpp.o
 .PHONY : src/cppnode.o
 
@@ -234,6 +260,54 @@ src/cppnode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppnode.dir/build.make CMakeFiles/cppnode.dir/src/cppnode.cpp.s
 .PHONY : src/cppnode.cpp.s
 
+src/number_counter.o: src/number_counter.cpp.o
+.PHONY : src/number_counter.o
+
+# target to build an object file
+src/number_counter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.o
+.PHONY : src/number_counter.cpp.o
+
+src/number_counter.i: src/number_counter.cpp.i
+.PHONY : src/number_counter.i
+
+# target to preprocess a source file
+src/number_counter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.i
+.PHONY : src/number_counter.cpp.i
+
+src/number_counter.s: src/number_counter.cpp.s
+.PHONY : src/number_counter.s
+
+# target to generate assembly for a file
+src/number_counter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.s
+.PHONY : src/number_counter.cpp.s
+
+src/number_publisher.o: src/number_publisher.cpp.o
+.PHONY : src/number_publisher.o
+
+# target to build an object file
+src/number_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o
+.PHONY : src/number_publisher.cpp.o
+
+src/number_publisher.i: src/number_publisher.cpp.i
+.PHONY : src/number_publisher.i
+
+# target to preprocess a source file
+src/number_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.i
+.PHONY : src/number_publisher.cpp.i
+
+src/number_publisher.s: src/number_publisher.cpp.s
+.PHONY : src/number_publisher.s
+
+# target to generate assembly for a file
+src/number_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.s
+.PHONY : src/number_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +324,17 @@ help:
 	@echo "... cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cppnode"
+	@echo "... number_counter"
+	@echo "... number_publisher"
 	@echo "... src/cppnode.o"
 	@echo "... src/cppnode.i"
 	@echo "... src/cppnode.s"
+	@echo "... src/number_counter.o"
+	@echo "... src/number_counter.i"
+	@echo "... src/number_counter.s"
+	@echo "... src/number_publisher.o"
+	@echo "... src/number_publisher.i"
+	@echo "... src/number_publisher.s"
 .PHONY : help
 
 

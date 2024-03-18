@@ -1,0 +1,81 @@
+[0.011s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg
+[0.660s] -- The C compiler identification is GNU 11.4.0
+[0.811s] -- The CXX compiler identification is GNU 11.4.0
+[0.846s] -- Detecting C compiler ABI info
+[1.056s] -- Detecting C compiler ABI info - done
+[1.063s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.083s] -- Detecting C compile features
+[1.098s] -- Detecting C compile features - done
+[1.102s] -- Detecting CXX compiler ABI info
+[1.250s] -- Detecting CXX compiler ABI info - done
+[1.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.257s] -- Detecting CXX compile features
+[1.258s] -- Detecting CXX compile features - done
+[1.300s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.455s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.581s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.654s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.661s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.672s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.846s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.850s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.115s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.145s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.219s] -- Looking for pthread.h
+[2.330s] -- Looking for pthread.h - found
+[2.330s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.445s] -- Found Threads: TRUE  
+[2.613s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.822s] -- Configuring done
+[2.824s] [33mCMake Warning (dev) at CMakeLists.txt:13 (add_executable):
+[2.825s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.825s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.825s]   command to set the policy and suppress this warning.
+[2.825s] 
+[2.825s]   File:
+[2.825s] 
+[2.825s]     /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp
+[2.825s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.825s] [0m
+[2.837s] -- Generating done
+[2.839s] -- Build files have been written to: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg
+[2.849s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg
+[2.851s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg -- -j8 -l8
+[2.904s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[2.904s] [ 50%] [32mBuilding CXX object CMakeFiles/cppnode.dir/src/cppnode.cpp.o[0m
+[2.905s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[6.114s] [ 66%] [32m[1mLinking CXX executable cppnode[0m
+[6.274s] [ 66%] Built target cppnode
+[7.697s] [ 83%] [32m[1mLinking CXX executable number_publisher[0m
+[7.921s] [ 83%] Built target number_publisher
+[12.725s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[13.161s] [100%] Built target number_counter
+[13.174s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg -- -j8 -l8
+[13.226s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg
+[13.234s] -- Install configuration: ""
+[13.234s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/lib/cpp_pkg/cppnode
+[13.235s] -- Set runtime path of "/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/lib/cpp_pkg/cppnode" to ""
+[13.235s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/lib/cpp_pkg/number_counter
+[13.240s] -- Set runtime path of "/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/lib/cpp_pkg/number_counter" to ""
+[13.240s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/lib/cpp_pkg/number_publisher
+[13.241s] -- Set runtime path of "/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/lib/cpp_pkg/number_publisher" to ""
+[13.242s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[13.242s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[13.242s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[13.242s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[13.243s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[13.243s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[13.243s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[13.243s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[13.243s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[13.244s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[13.244s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/package.dsv
+[13.244s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[13.244s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[13.244s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[13.245s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/install/cpp_pkg/share/cpp_pkg/package.xml
+[13.247s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/build/cpp_pkg

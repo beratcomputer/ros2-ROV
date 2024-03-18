@@ -1,0 +1,29 @@
+[1.094s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/py_pkg': PYTHONPATH=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed install_data
+[1.409s] running egg_info
+[1.410s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[1.431s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[1.431s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[1.438s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[1.438s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[1.459s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.460s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.479s] running build
+[1.479s] running build_py
+[1.479s] copying py_pkg/number_publisher.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg
+[1.480s] copying py_pkg/number_counter.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg
+[1.480s] running install
+[1.481s] running install_lib
+[1.482s] copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg/number_publisher.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[1.482s] copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build/lib/py_pkg/number_counter.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[1.483s] byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[1.484s] byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[1.484s] running install_data
+[1.484s] running install_egg_info
+[1.487s] removing '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.487s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[1.488s] running install_scripts
+[1.509s] Installing number_counter script to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/py_pkg
+[1.525s] Installing number_publisher script to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/py_pkg
+[1.526s] Installing pynode script to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/py_pkg
+[1.526s] writing list of installed files to '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log'
+[1.555s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/py_pkg' returned '0': PYTHONPATH=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed install_data

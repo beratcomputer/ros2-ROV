@@ -9,6 +9,8 @@ setup.py
 ../../build/py_pkg/py_pkg.egg-info/top_level.txt
 ../../build/py_pkg/py_pkg.egg-info/zip-safe
 py_pkg/__init__.py
+py_pkg/number_counter.py
+py_pkg/number_publisher.py
 py_pkg/pynode.py
 resource/py_pkg
 test/test_copyright.py

@@ -1,4 +1,6 @@
 /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/cppnode
+/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/number_counter
+/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/number_publisher
 /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
 /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
 /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh

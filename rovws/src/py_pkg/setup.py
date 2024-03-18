@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "pynode = py_pkg.pynode:main"
+            "pynode = py_pkg.pynode:main",
+            "number_publisher = py_pkg.number_publisher:main",
+            "number_counter = py_pkg.number_counter:main"
         ],
     },
 )
