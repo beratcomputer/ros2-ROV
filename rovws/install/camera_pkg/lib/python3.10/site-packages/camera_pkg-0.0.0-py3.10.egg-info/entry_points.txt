@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_node = camera_pkg.cameraPublisher:main
+subscriber_node = camera_pkg.subscriberImage:main
+
