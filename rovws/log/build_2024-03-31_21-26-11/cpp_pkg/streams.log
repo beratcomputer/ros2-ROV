@@ -1,0 +1,26 @@
+[0.443s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/ros2_opencv:/home/saykabot/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/ros2ws/install/cam_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg -- -j8 -l8
+[2.927s] [100%] Built target cppnode
+[2.927s] [100%] Built target number_counter
+[2.927s] [100%] Built target number_publisher
+[2.939s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/ros2_opencv:/home/saykabot/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/ros2ws/install/cam_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg -- -j8 -l8
+[2.983s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/ros2_opencv:/home/saykabot/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/ros2ws/install/cam_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg
+[3.026s] -- Install configuration: ""
+[3.060s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/cppnode
+[3.090s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/number_counter
+[3.122s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/number_publisher
+[3.122s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[3.123s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[3.124s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[3.124s] -- Installing: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.dsv
+[3.157s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[3.157s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[3.157s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[3.157s] -- Up-to-date: /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.xml
+[3.159s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/ros2ws/install/selfpypkg:/home/saykabot/ros2ws/install/ros2_opencv:/home/saykabot/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/ros2ws/install/my_py_pkg:/home/saykabot/ros2ws/install/cam_pkg:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg

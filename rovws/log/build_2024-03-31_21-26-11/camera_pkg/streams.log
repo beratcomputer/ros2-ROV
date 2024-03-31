@@ -1,0 +1,39 @@
+[4.185s] Invoking command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/camera_pkg': PYTHONPATH=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/prefix_override:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build install --record /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/install.log --single-version-externally-managed install_data
+[4.498s] running egg_info
+[4.499s] creating ../../build/camera_pkg/camera_pkg.egg-info
+[4.499s] writing ../../build/camera_pkg/camera_pkg.egg-info/PKG-INFO
+[4.499s] writing dependency_links to ../../build/camera_pkg/camera_pkg.egg-info/dependency_links.txt
+[4.500s] writing entry points to ../../build/camera_pkg/camera_pkg.egg-info/entry_points.txt
+[4.500s] writing requirements to ../../build/camera_pkg/camera_pkg.egg-info/requires.txt
+[4.500s] writing top-level names to ../../build/camera_pkg/camera_pkg.egg-info/top_level.txt
+[4.500s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[4.502s] reading manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[4.503s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[4.503s] running build
+[4.503s] running build_py
+[4.503s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build
+[4.504s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib
+[4.504s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib/camera_pkg
+[4.504s] copying camera_pkg/cameraPublisher.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib/camera_pkg
+[4.504s] copying camera_pkg/__init__.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib/camera_pkg
+[4.504s] copying camera_pkg/subscriberImage.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib/camera_pkg
+[4.504s] running install
+[4.505s] running install_lib
+[4.506s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg
+[4.506s] copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib/camera_pkg/cameraPublisher.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg
+[4.506s] copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib/camera_pkg/__init__.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg
+[4.506s] copying /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build/lib/camera_pkg/subscriberImage.py -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg
+[4.507s] byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg/cameraPublisher.py to cameraPublisher.cpython-310.pyc
+[4.508s] byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg/__init__.py to __init__.cpython-310.pyc
+[4.508s] byte-compiling /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg/subscriberImage.py to subscriberImage.cpython-310.pyc
+[4.508s] running install_data
+[4.509s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/share/ament_index
+[4.509s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/share/ament_index/resource_index
+[4.509s] creating /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/share/ament_index/resource_index/packages
+[4.509s] copying resource/camera_pkg -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/share/ament_index/resource_index/packages
+[4.509s] copying package.xml -> /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg
+[4.509s] running install_egg_info
+[4.511s] Copying ../../build/camera_pkg/camera_pkg.egg-info to /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg-0.0.0-py3.10.egg-info
+[4.512s] running install_scripts
+[4.533s] writing list of installed files to '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/install.log'
+[4.564s] Invoked command in '/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/camera_pkg' returned '0': PYTHONPATH=/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/prefix_override:/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/build install --record /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/camera_pkg/install.log --single-version-externally-managed install_data
