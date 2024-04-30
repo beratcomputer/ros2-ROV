@@ -37,8 +37,8 @@ class PixhawkPublisher(Node):
         self.publish_frequency_ =self.get_parameter("publish_frequency").value
         self.number_publisher_=self.create_publisher(Pixhawk, "pixhawk_pub",10)
         self.number_timer_=self.create_timer(1.0/self.publish_frequency_ , self.publishInfo)#1.0/frequency yaptık çünkü o ifade periyodu temsil ediyor.
-        self.subscriber_ = self.create_subscription(Twist, 'cmd_vel',self.get_vector, 10)
-        #self.subscriber_ = self.create_subscription(Joy, 'joy',self.get_vector, 10)
+        #self.subscriber_ = self.create_subscription(Twist, 'cmd_vel',self.get_vector, 10)
+        self.subscriber_ = self.create_subscription(Joy, 'joy',self.get_vector, 10)
         self.get_logger().info("Pixhawk Publisher has been started")
 
     def publishInfo(self):
@@ -51,6 +51,13 @@ class PixhawkPublisher(Node):
         msg_Pixhawk.yaw = msg.yaw
         #print("Roll: {0} ,Pitch: {1} ,Yaw: {2} ".format(msg_Pixhawk.roll , msg_Pixhawk.pitch , msg_Pixhawk.yaw) )
         self.number_publisher_.publish(msg_Pixhawk)
+        
+    def get_vector(self, vec:Joy):
+        self.x = -vec.axes[0]*1000 #sol analog sağ-sol hattı
+        self.y = vec.axes[1]*1000 #sol analog yukarı-aşağı hattı
+        print(f"parameters: x: {self.x} y: {self.y}  " )
+
+"""
     def get_vector(self,vector1:Twist):
         self.set_x = int(vector1.linear.x)
         self.set_y = int(vector1.linear.y)
@@ -59,7 +66,7 @@ class PixhawkPublisher(Node):
         self.set_ang_y = vector1.angular.y
         self.set_ang_z = vector1.angular.z
         print(f"parameters: {self.set_x} , {self.set_y} , {self.set_z}")
-
+"""
         
         
         
