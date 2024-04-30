@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (camera_pkg) JobQueued: {'identifier': 'camera_pkg', 'dependencies': OrderedDict()}
+[0.000219] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.000964] (keyboard_teleop) JobQueued: {'identifier': 'keyboard_teleop', 'dependencies': OrderedDict()}
+[0.001016] (pixhawk_pkg) JobQueued: {'identifier': 'pixhawk_pkg', 'dependencies': OrderedDict()}
+[0.001057] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.001095] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.001133] (camera_pkg) JobStarted: {'identifier': 'camera_pkg'}
+[0.015405] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.019981] (keyboard_teleop) JobStarted: {'identifier': 'keyboard_teleop'}
+[0.027026] (pixhawk_pkg) JobStarted: {'identifier': 'pixhawk_pkg'}
+[0.033343] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.040648] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.099801] (-) TimerEvent: {}
+[0.200104] (-) TimerEvent: {}
+[0.300384] (-) TimerEvent: {}
+[0.329624] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.331005] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[0.331861] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saykabot'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saykabot/Desktop/ros2ws/install/teleop_twist_joy/lib:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saykabot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d88e66129602ce92ed0f1d666310f11'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/saykabot/Desktop/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'saykabot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saykabot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/saykabot/.cargo/bin:/home/saykabot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/foscheptik:@/tmp/.ICE-unix/2042,unix/foscheptik:/tmp/.ICE-unix/2042'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cf712ae_b8b1_4c3b_b360_5ad5079e7999'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '17'), ('AMENT_PREFIX_PATH', '/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/teleop_twist_joy:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/selfcpppkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_robot_bringup:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/my_cpp_pkg:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d88e66129602ce92ed0f1d666310f11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/saykabot/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/selfpypkg/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/ros2_opencv/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/build/exam:/home/saykabot/Desktop/ros2ws/install/exam/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/cam_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saykabot/Desktop/ros2ws/install/teleop_twist_joy:/home/saykabot/Desktop/ros2ws/install/selfcpppkg:/home/saykabot/Desktop/ros2ws/install/my_robot_bringup:/home/saykabot/Desktop/ros2ws/install/my_cpp_pkg:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble')]), 'shell': False}
+[0.400506] (-) TimerEvent: {}
+[0.500816] (-) TimerEvent: {}
+[0.601155] (-) TimerEvent: {}
+[0.701522] (-) TimerEvent: {}
+[0.801893] (-) TimerEvent: {}
+[0.902161] (-) TimerEvent: {}
+[1.002444] (-) TimerEvent: {}
+[1.102752] (-) TimerEvent: {}
+[1.151068] (cpp_pkg) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg/CMakeCache.txt is different than the directory /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[1.151554] (cpp_pkg) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg" does not exist.\n'}
+[1.152021] (cpp_pkg) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[1.152321] (cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:349: cmake_check_build_system] Error 1\n'}
+[1.153570] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[1.154331] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy'], 'cwd': '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saykabot'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saykabot/Desktop/ros2ws/install/teleop_twist_joy/lib:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saykabot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d88e66129602ce92ed0f1d666310f11'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/saykabot/Desktop/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'saykabot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saykabot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/saykabot/.cargo/bin:/home/saykabot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/foscheptik:@/tmp/.ICE-unix/2042,unix/foscheptik:/tmp/.ICE-unix/2042'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cf712ae_b8b1_4c3b_b360_5ad5079e7999'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '17'), ('AMENT_PREFIX_PATH', '/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/teleop_twist_joy:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/selfcpppkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_robot_bringup:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/my_cpp_pkg:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d88e66129602ce92ed0f1d666310f11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/saykabot/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/selfpypkg/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/ros2_opencv/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/build/exam:/home/saykabot/Desktop/ros2ws/install/exam/lib/python3.10/site-packages:/home/saykabot/Desktop/ros2ws/install/cam_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saykabot/Desktop/ros2ws/install/teleop_twist_joy:/home/saykabot/Desktop/ros2ws/install/selfcpppkg:/home/saykabot/Desktop/ros2ws/install/my_robot_bringup:/home/saykabot/Desktop/ros2ws/install/my_cpp_pkg:/home/saykabot/Desktop/ros2ws/install/my_robot_interfaces:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble')]), 'shell': False}
+[1.157947] (cpp_pkg) CommandEnded: {'returncode': 2}
+[1.202842] (-) TimerEvent: {}
+[1.231649] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 2}
+[1.302939] (-) TimerEvent: {}
+[1.336472] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.403038] (-) TimerEvent: {}
+[1.494154] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.503136] (-) TimerEvent: {}
+[1.510889] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.596274] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.603250] (-) TimerEvent: {}
+[1.604975] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.606109] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.607151] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.611984] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.661112] (camera_pkg) JobEnded: {'identifier': 'camera_pkg', 'rc': 'SIGINT'}
+[1.674675] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 'SIGINT'}
+[1.685223] (keyboard_teleop) JobEnded: {'identifier': 'keyboard_teleop', 'rc': 'SIGINT'}
+[1.696486] (pixhawk_pkg) JobEnded: {'identifier': 'pixhawk_pkg', 'rc': 'SIGINT'}
+[1.703367] (-) TimerEvent: {}
+[1.713971] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.723123] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.723568] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.724389] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.730463] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.803490] (-) TimerEvent: {}
+[1.903779] (-) TimerEvent: {}
+[1.904664] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.003879] (-) TimerEvent: {}
+[2.050666] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.103995] (-) TimerEvent: {}
+[2.122426] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.133378] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.150005] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.175256] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.204103] (-) TimerEvent: {}
+[2.206839] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.304222] (-) TimerEvent: {}
+[2.349675] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.404345] (-) TimerEvent: {}
+[2.447161] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.453686] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.504454] (-) TimerEvent: {}
+[2.585846] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.604578] (-) TimerEvent: {}
+[2.622838] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.672964] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.691738] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.704682] (-) TimerEvent: {}
+[2.778623] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.778862] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.804809] (-) TimerEvent: {}
+[2.853001] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.854258] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.904935] (-) TimerEvent: {}
+[3.005217] (-) TimerEvent: {}
+[3.009143] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.096830] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.105312] (-) TimerEvent: {}
+[3.205535] (-) TimerEvent: {}
+[3.206492] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[3.291569] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[3.292308] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[3.305627] (-) TimerEvent: {}
+[3.368341] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[3.368716] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[3.405723] (-) TimerEvent: {}
+[3.452395] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[3.458123] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.505823] (-) TimerEvent: {}
+[3.571757] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.595400] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.602403] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.602638] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.602733] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.602799] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.605927] (-) TimerEvent: {}
+[3.626707] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.653189] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.653383] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy/include>\n'}
+[3.653506] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.658175] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.658269] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.659600] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.661428] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.662940] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.667679] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.667773] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.669064] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.674199] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.688577] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[3.690450] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy\n'}
+[3.699646] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 'SIGINT'}
+[3.706111] (-) TimerEvent: {}
+[3.710487] (-) EventReactorShutdown: {}

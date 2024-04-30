@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp" "CMakeFiles/cppnode.dir/src/cppnode.cpp.o" "gcc" "CMakeFiles/cppnode.dir/src/cppnode.cpp.o.d"
+  "/home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp" "CMakeFiles/cppnode.dir/src/cppnode.cpp.o" "gcc" "CMakeFiles/cppnode.dir/src/cppnode.cpp.o.d"
   )
 
 # Targets to which this target links.

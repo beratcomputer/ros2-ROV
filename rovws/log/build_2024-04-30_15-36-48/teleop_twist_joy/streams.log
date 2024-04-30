@@ -1,0 +1,110 @@
+[1.180s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy
+[1.262s] -- The C compiler identification is GNU 11.4.0
+[1.357s] -- The CXX compiler identification is GNU 11.4.0
+[1.368s] -- Detecting C compiler ABI info
+[1.480s] -- Detecting C compiler ABI info - done
+[1.496s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.497s] -- Detecting C compile features
+[1.498s] -- Detecting C compile features - done
+[1.503s] -- Detecting CXX compiler ABI info
+[1.652s] -- Detecting CXX compiler ABI info - done
+[1.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.668s] -- Detecting CXX compile features
+[1.669s] -- Detecting CXX compile features - done
+[1.675s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.008s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.210s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.272s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.281s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.295s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.488s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.575s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.580s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.695s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.723s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.785s] -- Looking for pthread.h
+[2.856s] -- Looking for pthread.h - found
+[2.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.929s] -- Found Threads: TRUE  
+[3.065s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.138s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.224s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.300s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.301s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.380s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.380s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.461s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.466s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.570s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.593s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.597s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.598s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.598s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.598s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.623s] -- Found PythonExtra: .so  
+[3.646s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.646s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy/include>
+[3.646s] -- Configured cppcheck exclude dirs and/or files: 
+[3.651s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.651s] -- Configured cpplint exclude dirs and/or files: 
+[3.652s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.653s] -- Added test 'lint_cmake' to check CMake code style
+[3.654s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.659s] -- Added test 'uncrustify' to check C / C++ code style
+[3.659s] -- Configured uncrustify additional arguments: 
+[3.660s] -- Added test 'xmllint' to check XML markup files
+[3.662s] -- Configuring done
+[3.676s] -- Generating done
+[3.678s] -- Build files have been written to: /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy
+[3.688s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy
+[3.689s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy -- -j8 -l8
+[3.729s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy[0m
+[3.748s] [ 50%] Built target teleop_twist_joy
+[3.759s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy_node[0m
+[3.777s] [100%] Built target teleop_twist_joy_node
+[3.790s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy -- -j8 -l8
+[3.821s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy
+[3.828s] -- Install configuration: ""
+[3.829s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[3.829s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[3.829s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/include/teleop_twist_joy
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/config
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[3.830s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/config/pdp.config.yaml
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[3.831s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[3.831s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[3.831s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[3.831s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[3.832s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[3.832s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake
+[3.832s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[3.833s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[3.833s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[3.834s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy

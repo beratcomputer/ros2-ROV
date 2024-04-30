@@ -1,0 +1,3 @@
+[console_scripts]
+pix_pub = pixhawk_pkg.pix_pub:main
+

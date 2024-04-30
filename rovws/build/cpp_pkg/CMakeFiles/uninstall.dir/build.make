@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg
+CMAKE_SOURCE_DIR = /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg
+CMAKE_BINARY_DIR = /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/build/cpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

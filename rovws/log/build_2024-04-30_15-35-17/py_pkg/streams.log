@@ -1,0 +1,23 @@
+[1.882s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/py_pkg': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed install_data
+[2.255s] running egg_info
+[2.257s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[2.257s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[2.257s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[2.257s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[2.257s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[2.260s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[2.262s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[2.262s] running build
+[2.262s] running build_py
+[2.263s] running install
+[2.263s] running install_lib
+[2.265s] running install_data
+[2.265s] running install_egg_info
+[2.267s] removing '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.267s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[2.268s] running install_scripts
+[2.292s] Installing number_counter script to /home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/py_pkg
+[2.292s] Installing number_publisher script to /home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/py_pkg
+[2.293s] Installing pynode script to /home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/py_pkg
+[2.293s] writing list of installed files to '/home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/install.log'
+[2.339s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/py_pkg' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed install_data

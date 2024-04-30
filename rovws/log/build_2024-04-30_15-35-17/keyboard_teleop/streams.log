@@ -1,0 +1,37 @@
+[1.893s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/keyboard_teleop': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/install.log --single-version-externally-managed install_data
+[2.361s] running egg_info
+[2.361s] creating ../../build/keyboard_teleop/keyboard_teleop.egg-info
+[2.362s] writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO
+[2.362s] writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt
+[2.362s] writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt
+[2.363s] writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt
+[2.363s] writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt
+[2.363s] writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[2.364s] reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[2.365s] writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[2.365s] running build
+[2.365s] running build_py
+[2.365s] creating /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build
+[2.365s] creating /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build/lib
+[2.366s] creating /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build/lib/keyboard_teleop
+[2.366s] copying keyboard_teleop/keyboard.py -> /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build/lib/keyboard_teleop
+[2.366s] copying keyboard_teleop/__init__.py -> /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build/lib/keyboard_teleop
+[2.366s] running install
+[2.366s] running install_lib
+[2.367s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop
+[2.368s] copying /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build/lib/keyboard_teleop/keyboard.py -> /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop
+[2.368s] copying /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build/lib/keyboard_teleop/__init__.py -> /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop
+[2.369s] byte-compiling /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/keyboard.py to keyboard.cpython-310.pyc
+[2.371s] byte-compiling /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/__init__.py to __init__.cpython-310.pyc
+[2.371s] running install_data
+[2.371s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/ament_index
+[2.372s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/ament_index/resource_index
+[2.372s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/ament_index/resource_index/packages
+[2.372s] copying resource/keyboard_teleop -> /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/ament_index/resource_index/packages
+[2.372s] copying package.xml -> /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop
+[2.372s] running install_egg_info
+[2.375s] Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info
+[2.376s] running install_scripts
+[2.408s] Installing keyboard script to /home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/keyboard_teleop
+[2.408s] writing list of installed files to '/home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/install.log'
+[2.447s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/keyboard_teleop' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/install.log --single-version-externally-managed install_data

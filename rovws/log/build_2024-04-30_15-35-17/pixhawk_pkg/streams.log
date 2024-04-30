@@ -1,0 +1,37 @@
+[1.781s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/pixhawk_pkg': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/install.log --single-version-externally-managed install_data
+[2.254s] running egg_info
+[2.255s] creating ../../build/pixhawk_pkg/pixhawk_pkg.egg-info
+[2.255s] writing ../../build/pixhawk_pkg/pixhawk_pkg.egg-info/PKG-INFO
+[2.256s] writing dependency_links to ../../build/pixhawk_pkg/pixhawk_pkg.egg-info/dependency_links.txt
+[2.256s] writing entry points to ../../build/pixhawk_pkg/pixhawk_pkg.egg-info/entry_points.txt
+[2.256s] writing requirements to ../../build/pixhawk_pkg/pixhawk_pkg.egg-info/requires.txt
+[2.256s] writing top-level names to ../../build/pixhawk_pkg/pixhawk_pkg.egg-info/top_level.txt
+[2.256s] writing manifest file '../../build/pixhawk_pkg/pixhawk_pkg.egg-info/SOURCES.txt'
+[2.259s] reading manifest file '../../build/pixhawk_pkg/pixhawk_pkg.egg-info/SOURCES.txt'
+[2.260s] writing manifest file '../../build/pixhawk_pkg/pixhawk_pkg.egg-info/SOURCES.txt'
+[2.260s] running build
+[2.260s] running build_py
+[2.261s] creating /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build
+[2.261s] creating /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build/lib
+[2.261s] creating /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build/lib/pixhawk_pkg
+[2.261s] copying pixhawk_pkg/pix_pub.py -> /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build/lib/pixhawk_pkg
+[2.261s] copying pixhawk_pkg/__init__.py -> /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build/lib/pixhawk_pkg
+[2.261s] running install
+[2.262s] running install_lib
+[2.263s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages/pixhawk_pkg
+[2.263s] copying /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build/lib/pixhawk_pkg/pix_pub.py -> /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages/pixhawk_pkg
+[2.263s] copying /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build/lib/pixhawk_pkg/__init__.py -> /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages/pixhawk_pkg
+[2.264s] byte-compiling /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages/pixhawk_pkg/pix_pub.py to pix_pub.cpython-310.pyc
+[2.265s] byte-compiling /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages/pixhawk_pkg/__init__.py to __init__.cpython-310.pyc
+[2.265s] running install_data
+[2.265s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/ament_index
+[2.265s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/ament_index/resource_index
+[2.266s] creating /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/ament_index/resource_index/packages
+[2.266s] copying resource/pixhawk_pkg -> /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/ament_index/resource_index/packages
+[2.266s] copying package.xml -> /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg
+[2.266s] running install_egg_info
+[2.268s] Copying ../../build/pixhawk_pkg/pixhawk_pkg.egg-info to /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages/pixhawk_pkg-0.0.0-py3.10.egg-info
+[2.269s] running install_scripts
+[2.292s] Installing pix_pub script to /home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/pixhawk_pkg
+[2.292s] writing list of installed files to '/home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/install.log'
+[2.338s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/pixhawk_pkg' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/install.log --single-version-externally-managed install_data

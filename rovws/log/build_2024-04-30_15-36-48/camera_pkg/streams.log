@@ -1,0 +1,25 @@
+[1.828s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/camera_pkg': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/install.log --single-version-externally-managed install_data
+[2.335s] running egg_info
+[2.336s] writing ../../build/camera_pkg/camera_pkg.egg-info/PKG-INFO
+[2.336s] writing dependency_links to ../../build/camera_pkg/camera_pkg.egg-info/dependency_links.txt
+[2.336s] writing entry points to ../../build/camera_pkg/camera_pkg.egg-info/entry_points.txt
+[2.336s] writing requirements to ../../build/camera_pkg/camera_pkg.egg-info/requires.txt
+[2.337s] writing top-level names to ../../build/camera_pkg/camera_pkg.egg-info/top_level.txt
+[2.339s] reading manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[2.340s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[2.340s] running build
+[2.340s] running build_py
+[2.340s] running install
+[2.341s] running install_lib
+[2.342s] byte-compiling /home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg/subscriberImage.py to subscriberImage.cpython-310.pyc
+[2.343s] byte-compiling /home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg/__init__.py to __init__.cpython-310.pyc
+[2.343s] byte-compiling /home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg/cameraPublisher.py to cameraPublisher.cpython-310.pyc
+[2.344s] running install_data
+[2.344s] running install_egg_info
+[2.347s] removing '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.347s] Copying ../../build/camera_pkg/camera_pkg.egg-info to /home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages/camera_pkg-0.0.0-py3.10.egg-info
+[2.348s] running install_scripts
+[2.376s] Installing publisher_node script to /home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/camera_pkg
+[2.377s] Installing subscriber_node script to /home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/camera_pkg
+[2.377s] writing list of installed files to '/home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/install.log'
+[2.407s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/camera_pkg' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/install.log --single-version-externally-managed install_data

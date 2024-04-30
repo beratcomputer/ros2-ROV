@@ -1,5 +1,5 @@
 CMakeFiles/cppnode.dir/src/cppnode.cpp.o: \
- /home/saykabot/AkilliMekatronikSistemler/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp \
+ /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

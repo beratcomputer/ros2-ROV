@@ -1,0 +1,426 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.103s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b51c6f31660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b51c6f31210>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b51c6f31210>>)
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.285s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saykabot/Desktop/ros2-ROV/rovws'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pkg) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_pkg' with type 'ros.ament_python' and name 'camera_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pkg' with type 'ros.ament_cmake' and name 'cpp_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_teleop) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_teleop' with type 'ros.ament_python' and name 'keyboard_teleop'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_pkg) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pixhawk_pkg' with type 'ros.ament_python' and name 'pixhawk_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pkg) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pkg' with type 'ros.ament_python' and name 'py_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_joy' with type 'ros.ament_cmake' and name 'teleop_twist_joy'
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/saykabot/Desktop/ros2ws/install
+[0.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.377s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop_twist_joy' is in: /home/saykabot/Desktop/ros2ws/install/teleop_twist_joy, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding teleop_twist_joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'camera_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'camera_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg', 'merge_install': False, 'path': '/home/saykabot/Desktop/ros2-ROV/rovws/src/camera_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg', 'merge_install': False, 'path': '/home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'keyboard_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop', 'merge_install': False, 'path': '/home/saykabot/Desktop/ros2-ROV/rovws/src/keyboard_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'pixhawk_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg', 'merge_install': False, 'path': '/home/saykabot/Desktop/ros2-ROV/rovws/src/pixhawk_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg', 'merge_install': False, 'path': '/home/saykabot/Desktop/ros2-ROV/rovws/src/py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy', 'merge_install': False, 'path': '/home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy', 'symlink_install': False, 'test_result_base': None}
+[0.381s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.382s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/camera_pkg' with build type 'ament_python'
+[0.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pkg', 'ament_prefix_path')
+[0.385s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/hook/ament_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/hook/ament_prefix_path.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/hook/ament_prefix_path.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg'
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/keyboard_teleop' with build type 'ament_python'
+[0.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_teleop', 'ament_prefix_path')
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/hook/ament_prefix_path.ps1'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/hook/ament_prefix_path.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/hook/ament_prefix_path.sh'
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/pixhawk_pkg' with build type 'ament_python'
+[0.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixhawk_pkg', 'ament_prefix_path')
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/hook/ament_prefix_path.ps1'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/hook/ament_prefix_path.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/hook/ament_prefix_path.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.407s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/py_pkg' with build type 'ament_python'
+[0.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pkg', 'ament_prefix_path')
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/hook/ament_prefix_path.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/hook/ament_prefix_path.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/hook/ament_prefix_path.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy' with build type 'ament_cmake'
+[0.413s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.690s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/camera_pkg'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg
+[0.991s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/keyboard_teleop'
+[0.991s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.991s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.278s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/pixhawk_pkg'
+[1.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.576s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saykabot/Desktop/ros2-ROV/rovws/src/py_pkg'
+[1.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy
+[2.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/camera_pkg': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/install.log --single-version-externally-managed install_data
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/pixhawk_pkg': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/install.log --single-version-externally-managed install_data
+[2.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/keyboard_teleop': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/install.log --single-version-externally-managed install_data
+[2.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/py_pkg': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed install_data
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/camera_pkg' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/camera_pkg/install.log --single-version-externally-managed install_data
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg' for CMake module files
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg' for CMake config files
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/bin'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/pkgconfig/camera_pkg.pc'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/lib/python3.10/site-packages'
+[2.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pkg', 'pythonpath')
+[2.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/hook/pythonpath.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/hook/pythonpath.dsv'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/hook/pythonpath.sh'
+[2.499s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/bin'
+[2.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_pkg)
+[2.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/package.ps1'
+[2.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/package.dsv'
+[2.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/package.sh'
+[2.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/package.bash'
+[2.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/camera_pkg/package.zsh'
+[2.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/camera_pkg/share/colcon-core/packages/camera_pkg)
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg' for CMake module files
+[2.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/pixhawk_pkg' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/pixhawk_pkg/install.log --single-version-externally-managed install_data
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg' for CMake config files
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/bin'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/pkgconfig/pixhawk_pkg.pc'
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/lib/python3.10/site-packages'
+[2.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixhawk_pkg', 'pythonpath')
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/hook/pythonpath.ps1'
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/hook/pythonpath.dsv'
+[2.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/hook/pythonpath.sh'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/bin'
+[2.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pixhawk_pkg)
+[2.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/package.ps1'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/package.dsv'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/package.sh'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/package.bash'
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/pixhawk_pkg/package.zsh'
+[2.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/pixhawk_pkg/share/colcon-core/packages/pixhawk_pkg)
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg' for CMake module files
+[2.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/py_pkg' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/py_pkg/install.log --single-version-externally-managed install_data
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg' for CMake config files
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/bin'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/pkgconfig/py_pkg.pc'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/lib/python3.10/site-packages'
+[2.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pkg', 'pythonpath')
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/hook/pythonpath.ps1'
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/hook/pythonpath.dsv'
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/hook/pythonpath.sh'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/bin'
+[2.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pkg)
+[2.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/package.ps1'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/package.dsv'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/package.sh'
+[2.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/package.bash'
+[2.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/py_pkg/package.zsh'
+[2.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/py_pkg/share/colcon-core/packages/py_pkg)
+[2.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg
+[2.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg -- -j8 -l8
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop' for CMake module files
+[2.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/src/keyboard_teleop' returned '0': PYTHONPATH=/home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/prefix_override:/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/build install --record /home/saykabot/Desktop/ros2-ROV/rovws/build/keyboard_teleop/install.log --single-version-externally-managed install_data
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop' for CMake config files
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib'
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/bin'
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/pkgconfig/keyboard_teleop.pc'
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/lib/python3.10/site-packages'
+[2.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_teleop', 'pythonpath')
+[2.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/hook/pythonpath.ps1'
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/hook/pythonpath.dsv'
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/hook/pythonpath.sh'
+[2.848s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/bin'
+[2.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_teleop)
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/package.ps1'
+[2.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/package.dsv'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/package.sh'
+[2.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/package.bash'
+[2.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/keyboard_teleop/package.zsh'
+[2.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/keyboard_teleop/share/colcon-core/packages/keyboard_teleop)
+[4.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy
+[4.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy -- -j8 -l8
+[12.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg -- -j8 -l8
+[12.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg
+[12.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pkg)
+[12.398s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg' for CMake module files
+[12.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg
+[12.399s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg' for CMake config files
+[12.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pkg', 'cmake_prefix_path')
+[12.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.ps1'
+[12.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.dsv'
+[12.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.sh'
+[12.401s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib'
+[12.401s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/bin'
+[12.401s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib/pkgconfig/cpp_pkg.pc'
+[12.401s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib/python3.10/site-packages'
+[12.401s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/bin'
+[12.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.ps1'
+[12.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.dsv'
+[12.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.sh'
+[12.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.bash'
+[12.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.zsh'
+[12.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/colcon-core/packages/cpp_pkg)
+[12.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pkg)
+[12.439s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg' for CMake module files
+[12.439s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg' for CMake config files
+[12.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pkg', 'cmake_prefix_path')
+[12.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.ps1'
+[12.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.dsv'
+[12.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.sh'
+[12.441s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib'
+[12.441s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/bin'
+[12.441s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib/pkgconfig/cpp_pkg.pc'
+[12.441s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib/python3.10/site-packages'
+[12.441s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/bin'
+[12.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.ps1'
+[12.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.dsv'
+[12.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.sh'
+[12.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.bash'
+[12.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.zsh'
+[12.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/colcon-core/packages/cpp_pkg)
+[17.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy -- -j8 -l8
+[17.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy
+[17.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[17.727s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy' for CMake module files
+[17.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/teleop_twist_joy
+[17.728s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy' for CMake config files
+[17.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[17.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[17.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[17.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[17.729s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib'
+[17.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[17.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[17.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[17.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[17.730s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/bin'
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib/python3.10/site-packages'
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/bin'
+[17.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[17.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[17.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[17.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[17.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[17.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[17.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[17.763s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy' for CMake module files
+[17.764s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy' for CMake config files
+[17.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[17.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[17.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[17.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[17.766s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib'
+[17.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[17.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[17.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[17.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[17.767s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/bin'
+[17.767s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[17.767s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/lib/python3.10/site-packages'
+[17.767s] Level 1:colcon.colcon_core.environment:checking '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/bin'
+[17.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[17.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[17.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[17.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[17.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[17.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saykabot/Desktop/ros2-ROV/rovws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[17.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.776s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.786s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saykabot/Desktop/ros2-ROV/rovws/install/local_setup.ps1'
+[17.788s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saykabot/Desktop/ros2-ROV/rovws/install/_local_setup_util_ps1.py'
+[17.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saykabot/Desktop/ros2-ROV/rovws/install/setup.ps1'
+[17.791s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saykabot/Desktop/ros2-ROV/rovws/install/local_setup.sh'
+[17.791s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saykabot/Desktop/ros2-ROV/rovws/install/_local_setup_util_sh.py'
+[17.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saykabot/Desktop/ros2-ROV/rovws/install/setup.sh'
+[17.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saykabot/Desktop/ros2-ROV/rovws/install/local_setup.bash'
+[17.794s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saykabot/Desktop/ros2-ROV/rovws/install/setup.bash'
+[17.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saykabot/Desktop/ros2-ROV/rovws/install/local_setup.zsh'
+[17.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saykabot/Desktop/ros2-ROV/rovws/install/setup.zsh'
