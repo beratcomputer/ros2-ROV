@@ -1,0 +1,10 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/saykabot/Desktop/ros2-ROV/rovws/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/saykabot/Desktop/ros2-ROV/rovws/src/my_robot_interfaces:msg/Pixhawk.msg",
+    "/home/saykabot/Desktop/ros2-ROV/rovws/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/saykabot/Desktop/ros2-ROV/rovws/src/my_robot_interfaces:msg/TurtleArray.msg",
+    "/home/saykabot/Desktop/ros2-ROV/rovws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv"
+  ]
+}

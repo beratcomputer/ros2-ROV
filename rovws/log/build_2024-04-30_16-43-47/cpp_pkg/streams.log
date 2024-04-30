@@ -1,0 +1,75 @@
+[0.349s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg
+[1.039s] -- The C compiler identification is GNU 11.4.0
+[1.040s] -- The CXX compiler identification is GNU 11.4.0
+[1.040s] -- Detecting C compiler ABI info
+[1.040s] -- Detecting C compiler ABI info - done
+[1.040s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.041s] -- Detecting C compile features
+[1.041s] -- Detecting C compile features - done
+[1.043s] -- Detecting CXX compiler ABI info
+[1.043s] -- Detecting CXX compiler ABI info - done
+[1.044s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.044s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.045s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.045s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.046s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.074s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.083s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.097s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.306s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.480s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.528s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.622s] -- Looking for pthread.h
+[1.738s] -- Looking for pthread.h - found
+[1.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.828s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.831s] -- Found Threads: TRUE  
+[2.082s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.369s] -- Configuring done
+[2.372s] [33mCMake Warning (dev) at CMakeLists.txt:13 (add_executable):
+[2.373s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.373s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.373s]   command to set the policy and suppress this warning.
+[2.373s] 
+[2.373s]   File:
+[2.373s] 
+[2.373s]     /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg/src/cppnode.cpp
+[2.373s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.373s] [0m
+[2.388s] -- Generating done
+[2.390s] -- Build files have been written to: /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg
+[2.400s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake /home/saykabot/Desktop/ros2-ROV/rovws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg
+[2.402s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg -- -j8 -l8
+[2.451s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[2.454s] [35m[1mConsolidate compiler generated dependencies of target cppnode[0m
+[2.454s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[2.472s] [ 33%] Built target number_counter
+[2.481s] [ 66%] Built target number_publisher
+[2.482s] [100%] Built target cppnode
+[2.495s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg -- -j8 -l8
+[2.545s] Invoking command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg
+[2.556s] -- Install configuration: ""
+[2.556s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/cppnode
+[2.557s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/number_counter
+[2.557s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/lib/cpp_pkg/number_publisher
+[2.557s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[2.558s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[2.558s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[2.558s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[2.558s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[2.558s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[2.558s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[2.559s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[2.559s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[2.559s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[2.559s] -- Installing: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.dsv
+[2.559s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[2.559s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[2.559s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[2.559s] -- Up-to-date: /home/saykabot/Desktop/ros2-ROV/rovws/install/cpp_pkg/share/cpp_pkg/package.xml
+[2.562s] Invoked command in '/home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saykabot/Desktop/ros2ws/install/turtlesim_catch_them_all:/home/saykabot/Desktop/ros2ws/install/selfpypkg:/home/saykabot/Desktop/ros2ws/install/ros2_opencv:/home/saykabot/Desktop/ros2ws/install/py_turtlesim_catchthemall:/home/saykabot/Desktop/ros2ws/install/pixhawk_pkg:/home/saykabot/Desktop/ros2ws/install/my_py_pkg:/home/saykabot/Desktop/ros2ws/install/keyboard_teleop:/home/saykabot/Desktop/ros2ws/install/exam:/home/saykabot/Desktop/ros2ws/install/cam_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saykabot/Desktop/ros2-ROV/rovws/build/cpp_pkg
